@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+   
+    height: 7.5vh;
+    
+}
+.navbar{
+  background-color: rgb(34, 107, 224);
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 7.5vh;
+
+}
+
+.logo{
+    /* margin-top: 2vh; */
+   height: 3vh;
+   padding: 1vh 0vw 1vh 13vw;
+}
+.logo img{
+   height: 2.7vh;
+   padding-left: 4vw;
+   padding-top: 1vh;
+}
+#explore{
+    color: white; padding-left: 3.2vw;
+    text-decoration: none;
+    padding-bottom: 2vh;
+    margin-top: -6px;
+}
+.button{
+    width: 40vw;
+}
+.button form{
+    box-sizing: border-box;
+    margin: 1.5vh 3vw 1vh 0.5vw;
+    height: 6.5vh;
+    width: 40vw;
+
+}
+.searchbox{
+    font-size: 16px; font-family: Roboto,Arial,sans-serif;
+}
+.button form input{
+    border-radius: 3px;
+    height: 4.5vh;
+    width: 35vw;
+    padding-left: 1vw;
+
+}
+.button form button{
+    border-radius: 2px;
+    height: 4.5vh;
+    width: 5vw;
+    color: white;
+    background-color:  rgb(34, 107, 224);
+    border: 1px solid white;
+}
+.navbar ul {
+    
+    margin-top: 3vh;
+   
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 5vw;
+    margin-top: -8px;
+    padding-top: 5px;
+   
+}
+.navbar ul li a{
+    
+    text-decoration: none;
+    padding-left: 2vw;
+    margin-bottom: 2vh;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 600;
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.firstbox{
+    border: 1px solid grey;
+    height: 16vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    column-gap: 10px;
+}
+.liststyle{
+    list-style: none;
+}
+.img2{
+    height: 8.5vh;
+    width: 4.5vw;
+    padding-top: 2vh;
+
+}
+.banner{
+    margin-top: 1vh;
+    border: 2px solid black;
+    height: 100vh;
+    
+    /* width: 100%; */
+    /* box-sizing: border-box; */
+    background-image: url("../img/ranbir.jpg");  
+}
