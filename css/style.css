@@ -106,4 +106,32 @@ header{
     background-image: url("../img/ranbir_edited.jpg");  
     background-size: cover;
 }
+.electronics{
+    border: 2px solid black;
+    height: 10vh;
+    margin-top: 2vh;
+}
+.view-all button{
+    position: absolute;
+    bottom: 7vh;
+    right: 1vw;
+    height: 5vh;
+    width: 6vw;
+    background-color: rgb(34, 107, 224);
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+.view-all p{
+    position: absolute;
+    left: 2vw;
+    bottom: 10vh;
+
+}
+.sub-electro{
+    height: 30vh;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
 
