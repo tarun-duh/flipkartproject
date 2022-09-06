@@ -106,32 +106,44 @@ header{
     background-image: url("../img/ranbir_edited.jpg");  
     background-size: cover;
 }
+
 .electronics{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 10vh;
-    margin-top: 2vh;
+    margin: 1vh 5px 1vh 5px;
+    background-color: rgba(230, 221, 221, 0.541);
 }
 .view-all button{
+    /* border: 5px solid red; */
     position: absolute;
+    border-radius: 2px;
     bottom: 7vh;
     right: 1vw;
     height: 5vh;
     width: 6vw;
     background-color: rgb(34, 107, 224);
     color: #fff;
-    font-size: 20px;
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    font-size: 15px;
+    /* box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%); */
 }
 .view-all p{
     position: absolute;
-    left: 2vw;
-    bottom: 10vh;
+    left: 5px;
+    bottom: 9vh;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Roboto,Arial,sans-serif;
 
 }
 .sub-electro{
+    
+    margin: 1vh 5px 1vh 5px;
     height: 30vh;
-    background-color: aqua;
+    background-color: rgb(228, 219, 219);
     display: grid;
+    column-gap: 10px;
+    justify-content: center;
+    /* align-items: center; */
     grid-template-columns: auto auto auto auto auto auto auto;
 }
 
